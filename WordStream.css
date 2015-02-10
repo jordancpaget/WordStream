@@ -1,21 +1,21 @@
 * {
-	vertical-align: baseline;
-	font-weight: inherit;
-	font-family: inherit;
-	font-style: inherit;
-	font-size: 100%;
-	border: 0 none;
-	outline: 0;
+	border: 0;
 	padding: 0;
 	margin: 0;
+	font-family: Arial,serif;
 	}
 
 div {
-	height:50px;
-	width:100px;
-	display:inline-block;
-	border:solid black 3px;
 	vertical-align: top;
+}
+
+img {
+	display: inline-block;
+}
+
+a {
+	color:blue;
+	text-decoration: none;
 }
 
 
@@ -26,40 +26,150 @@ div {
 
 
 #header {
-	height:100px;
+	height:130px;
 	width: 970px;
 	background-color:white;
 
 }
 
-	#header img {
-	height:100px;
-	margin:5px;
+	#header h1 {
+		margin: 35px 0px 5px 5px;
+		font-size: 40px;
+		font-weight: 500;
+		display: inline-block;
 	}
 
+	#header img {
+		height:70px;
+		margin: 20px 0px 0px 15px;
+		vertical-align: top;
+	}
 
-#navbar {
-	height:50px;
-	width:970px;
-	background-color:blue;
-	color:white;
-}
+	#header  ul li {
+		list-style-type: none;
+		display: inline-block;
+	}
+
+	#header h2 {
+		height::80px;
+		width: 970px;
+		background-color:blue;
+		color:white;
+		font-size:25px;
+		padding:12px;
+		font-weight: 600;
+		margin-top: 15px
+	}
 
 #sidebar {
 	height: 300px;
-	width: 150px;
+	width: 250px;
 	margin:10px;
+	margin-top:100px;
+	display:inline-block;
+	line-height: 100%;
 }
+	#sidebar h3 {
+		font-size: 17px;
+		color:blue;
+		padding-bottom: 15px;
+	}
+
+	#sidebar h4 {
+		font-size: 12px;
+		margin-bottom: 7px;
+		color:red;
+	}
+
+	#schedule {
+		height:35px;
+		width:230px;
+		background-color: blue;
+		color: white;
+		margin:20px 5px 5px 0px;
+		border-radius: 7px;
+		font-size: 17px;
+		font-weight: 700;
+	}
+
+	#trial {
+		height: 35px;
+		width: 230px;
+		background-color: orange;
+		color:white;
+		margin:5px 5px 5px 0px;
+		border-radius: 7px;
+		font-size: 17px;
+		font-weight: 700;
+	}
+
+	#sidebar p {
+		text-align: center;
+	}
+
+	#sidebar_ad {
+		margin: 30px 0px 0px 5px;
+		height: 400px;
+	}
+
+		#sidebar_ad img {
+			height:250px;
+			border-top: solid gray 2px;
+			padding: 20px 15px 0px 0px;
+			vertical-align: top;
+		}
 
 #main-content {
 	height: 600px;
 	width: 600px;
 	margin: 10px;
+	margin-top:40px;
+	display:inline-block;
+	line-height: 150%;
+	font-size: 12px;
 }
 
+	#phone {
+		margin-left: 400px;
+	}
+	
+	#main-content>h1 {
+		font-size: 20px;
+		color:blue;
+	}
+	#main-content >h2 {
+		border-top: solid lightgray 3px;
+		padding:5px 0px 10px 0px;
+		font-size:18px;
+		color:blue; 
+		font-weight: bold;
+		margin-top:50px;
+	}
+ 
+	#main-content #ad {
+		height:150px;
+		width:650px;
+		border:solid lightblue 8px;
+
+	}
+
 h1 {
-	margin:10px;
-	font-size: 70px;
 	display:inline-block;
-	margin-bottom:100px;
+	text-align: top;
+}
+
+img {
+	display:inline-block;
+}
+
+.inline {
+	display: inline;
+}
+
+li {
+	margin-left: 25px;
+}
+
+.bold {
+	font-weight: bolder;
 }
