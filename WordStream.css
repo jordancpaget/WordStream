@@ -1,8 +1,8 @@
 * {
 	border: 0;
-	padding: 0;
-	margin: 0;
 	font-family: Arial,serif;
+	margin: 0;
+	padding: 0;
 	}
 
 div {
@@ -14,7 +14,7 @@ img {
 }
 
 a {
-	color:blue;
+	color:#4747D1;
 	text-decoration: none;
 }
 
@@ -26,17 +26,16 @@ a {
 
 
 #header {
-	height:130px;
-	width: 970px;
 	background-color:white;
-
+	height:150px;
+	width: 970px;
 }
 
 	#header h1 {
-		margin: 35px 0px 5px 5px;
 		font-size: 40px;
 		font-weight: 500;
 		display: inline-block;
+		margin: 35px 0px 5px 5px;
 	}
 
 	#header img {
@@ -46,61 +45,60 @@ a {
 	}
 
 	#header  ul li {
-		list-style-type: none;
 		display: inline-block;
+		list-style-type: none;
 	}
 
 	#header h2 {
-		height::80px;
-		width: 970px;
-		background-color:blue;
+		background-color:#4747D1;
 		color:white;
 		font-size:25px;
-		padding:12px;
 		font-weight: 600;
-		margin-top: 15px
+		margin-top: 15px;
+		padding:12px;
+		height::90px;
+		width: 970px;		
 	}
 
 #sidebar {
 	height: 300px;
-	width: 250px;
-	margin:10px;
-	margin-top:100px;
 	display:inline-block;
 	line-height: 100%;
+	margin:80px 10px 10px 10px;
+	width: 250px;
 }
 	#sidebar h3 {
+		color:#4747D1;
 		font-size: 17px;
-		color:blue;
 		padding-bottom: 15px;
 	}
 
 	#sidebar h4 {
+		color:red;
 		font-size: 12px;
 		margin-bottom: 7px;
-		color:red;
 	}
 
 	#schedule {
-		height:35px;
-		width:230px;
-		background-color: blue;
-		color: white;
-		margin:20px 5px 5px 0px;
+		background-color:#3399FF;
 		border-radius: 7px;
+		color: white;
 		font-size: 17px;
 		font-weight: 700;
+		height:35px;
+		margin:20px 5px 5px 0px;
+		width:230px;
 	}
 
 	#trial {
-		height: 35px;
-		width: 230px;
 		background-color: orange;
-		color:white;
-		margin:5px 5px 5px 0px;
 		border-radius: 7px;
+		color:white;
 		font-size: 17px;
 		font-weight: 700;
+		height: 35px;
+		width: 230px;
+		margin:5px 5px 5px 0px;
 	}
 
 	#sidebar p {
@@ -108,49 +106,46 @@ a {
 	}
 
 	#sidebar_ad {
+		background-image: url("left_content_ad.png");
+		background-repeat: no-repeat;
+		height: 250px;
 		margin: 30px 0px 0px 5px;
-		height: 400px;
+		width: 200px;
+	
 	}
 
-		#sidebar_ad img {
-			height:250px;
-			border-top: solid gray 2px;
-			padding: 20px 15px 0px 0px;
-			vertical-align: top;
-		}
-
-#main-content {
+#main_content {
+	display:inline-block;
+	font-size: 12px;
 	height: 600px;
-	width: 600px;
+	line-height: 175%;
 	margin: 10px;
 	margin-top:40px;
-	display:inline-block;
-	line-height: 150%;
-	font-size: 12px;
+	width: 600px;
 }
 
 	#phone {
-		margin-left: 400px;
+		margin-left: 300px;
+		vertical-align: top;
 	}
 	
-	#main-content>h1 {
+	#main_content>h1 {
+		color:#4747D1;
 		font-size: 20px;
-		color:blue;
 	}
-	#main-content >h2 {
-		border-top: solid lightgray 3px;
-		padding:5px 0px 10px 0px;
+	#main_content >h2 {
+		border-top: solid #3399FF 3px;
+		color:#4747D1; 
 		font-size:18px;
-		color:blue; 
 		font-weight: bold;
 		margin-top:50px;
+		padding:5px 0px 10px 0px;
 	}
  
-	#main-content #ad {
+	#main_content #ad {
+		border:solid #3399FF 8px;
 		height:150px;
 		width:650px;
-		border:solid lightblue 8px;
-
 	}
 
 h1 {
